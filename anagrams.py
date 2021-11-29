@@ -1,7 +1,7 @@
 #load digital dictionary file as a list of words
-import load from load_dictionary
+from load_dictionary import load
 
-word_list - load("path to word dictionary from palindromes")
+word_list = load('./lang/2of4brif.txt')
 #accept a word from user
 name = 'Foster'
 print('Input name = {}'.format(name))
